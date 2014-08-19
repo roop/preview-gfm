@@ -41,6 +41,16 @@ Ut enim ad minima veniam:
 > quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
 > voluptas nulla pariatur?
 
+Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+consectetur, adipisci velit, sed quia non numquam eius modi tempora
+incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+
+~~~ Swift
+for (var i = 0; i < 10; i++) {
+    println("Name: \(names[i])")
+}
+~~~
+
 ---
 
  *  Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
