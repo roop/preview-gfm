@@ -76,3 +76,89 @@ ___
 This [text is linked to "/url"](/url "url title"), and this text is
 *emphasized*. There is also some `inlined code`.
 
+## Which Redcarpet extensions are enabled?
+
+#### NO INTRA EMPHASIS
+
+If enabled, the word "word" is not emphasized in:
+
+ * This is intra_word_emphasis with some __real__awesome underscores
+ * This is intra*word*emphasis with some **real**awesome asterisks
+
+#### TABLES
+
+A little table:
+
+| header 1 | header 2 |
+| -------- | -------- |
+| cell 1   | cell 2   |
+| cell 3   | cell 4   |
+
+#### FENCED CODE
+
+```
+Backtick-fence for code block
+```
+
+~~~
+Tilde-fence for code block
+~~~
+
+#### AUTOLINK
+
+Links without enclosing web pages like http://google.com or just
+www.google.com or emails like someone@google.com without having to
+enclose them in angle brackets.
+
+#### STRIKETHROUGH
+
+Here is some ~~struck out text~~ for you.
+
+#### UNDERLINE
+
+If enabled, the following is rendered underlined (else, it's treated as
+normal emphasis):
+
+_Text enclosed in single underscores_
+
+#### SPACE HEADERS
+
+If enabled, the following is NOT considered to be a h5 header:
+
+#####Not a good header
+
+#### SUPERSCRIPT
+
+x^2 implies "x-squared" and 2^(nd) time implies "second time"
+
+#### LAX SPACING
+
+If enabled, HTML blocks do not require to be surrounded by an empty line
+<div>
+    This is inside a div
+</div>
+And this is outside the div.
+
+#### DISABLE INDENTED CODE
+
+If enabled, 4-space indented text, like below, is not considered to be a code-block
+
+    int i = 0;
+    for ( ; i < 10; i++) {
+        printf("Name: %s\n", names[i]);
+    }
+
+#### HIGHLIGHT
+
+Here is some ==highlighted text== for you.
+
+#### FOOTNOTES
+
+Super cali[^1] fragilistic
+
+[^1]: expiali docious
+
+#### QUOTE
+
+Processes "quotes" in text to HTML `q` tags.
+
