@@ -139,6 +139,26 @@ If enabled, HTML blocks do not require to be surrounded by an empty line
 </div>
 And this is outside the div.
 
+If enabled, fenced code blocks do not require to be preceded by an empty line
+~~~
+This is inside a fence
+~~~
+And this is outside the fence.
+
+If enabled, lists do not require to be preceded by an empty line:
+
+This is an unordered list:
+ * One
+ * Two
+ * Three
+
+And this is an ordered list:
+ 1. One
+ 2. Two
+ 3. Three
+
+End of list
+
 #### DISABLE INDENTED CODE
 
 If enabled, 4-space indented text, like below, is not considered to be a code-block
