@@ -182,3 +182,21 @@ Super cali[^1] fragilistic
 
 Processes "quotes" in text to HTML `q` tags.
 
+## Other stuff
+
+### HTML COMMENT
+
+A HTML comment inserted inline <!-- This is a comment --> in the text
+of a paragraph.
+
+A HTML comment at the start of a new line:
+
+<!-- This is another comment -->
+
+### LINE BREAKS
+
+This line ends with no space.
+This line ends with a single space. 
+This line ends with a double space.  
+This line ends with a triple space.   
+
